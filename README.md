@@ -1,41 +1,22 @@
-# Pixi.js TypeScript Boilerplate
 
-A beginner-friendly template for building interactive graphics and games using Pixi.js with TypeScript and Webpack. This boilerplate simplifies the setup process, allowing developers to quickly start creating engaging web experiences.
+# Pixi-mc with Pixi.js TypeScript Animation using Texture Atlas from Animate CC
 
-![pixi.js logo](https://pixijs.download/pixijs-banner-no-version.png?v=1)
+This project demonstrates an animation using a Texture Atlas created in Animate CC with Pixi.js and TypeScript.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/14e7ef42-5c90-44c8-a7ec-0b6e20c59735/deploy-status)](https://pixi-typescript-boilerplate.netlify.app)
+## Animation Details
+- The Moonranch background image is displayed with the Barn animation initially paused.
+- When the Barn-door is clicked, an animation of a horse coming out of the door will play.
+- After the horse exits, a stepping animation of the horse will play while the Barn-door animation returns to its closed state.
+- Sound effects for the door and the horse walking are currently being added (In progress).
 
-## Recent update ( 25.12.2023 )
-
-- 🆕 Updated to Pixi v7: The latest version of Pixi.js brings enhanced features and performance improvements
-
-- 🔧 Stability Overhaul: Moved from swc to ts-loader for improved stability and compatibility
-
-- Revised and Updated Dependencies: All package dependencies have been reviewed and updated to their latest versions for optimal performance and security.
-
-## Features
-
-- 🔰 - Beginner-friendly setup and structure.
-- 🚀 - Optimized build times.
-- 🛠 - Full TypeScript support for robust type-checking.
-- ✈️ - Live reload for efficient development workflow.
-- 📝 - Consistent code style using Prettier and Eslint
-
-## Usage
-
-### Click on the green button "Use this template" on top of the repo or
-
-Simply copy paste this and start coding
-
-`git clone --depth=1 --branch=master https://github.com/yordan-kanchelov/pixi-typescript-boilerplate`
-
-`rm -rf ./pixi-typescript-boilerplate/.git`
+## Versions Used
+- Pixi.js version: `7.3.2`
+- Pixi-mc version: `2.1`
+- Pixi-sound version: `5.2.3`
 
 ## Commands
 
-- `npm run build` - starts build procedure
-- `npm run start` - start watching for files and open's server on localhost:8080
-- `npm run lint` - generate code coverage report
+- `npm run build` - Starts the build procedure.
+- `npm run start` - Starts watching for file changes and opens a server on `localhost:8080`.
+- `npm run lint` - Generates a code coverage report.
 
-For vscode users - ctrl ( or ⌘ ) + shift + b will run package.json's dev script ( it is set as default vscode task )
